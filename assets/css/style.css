@@ -194,6 +194,17 @@ a:hover { text-decoration: underline; }
   margin: 1.5rem 0;
 }
 
+/* CONTENT IMAGE */
+.content-image {
+  max-width: 960px;
+  margin: 1.5rem auto;
+  padding: 0 2rem;
+}
+.content-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
 /* EXPLORE */
 .explore-section {
   max-width: 800px;
@@ -208,6 +219,20 @@ a:hover { text-decoration: underline; }
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   text-align: center;
+}
+.explore-section h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: var(--muted);
+  font-style: italic;
+}
+.explore-section h4 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--muted);
+  font-style: italic;
 }
 .explore-section iframe { width: 100%; margin-bottom: 1.5rem; border-radius: 8px; }
 
@@ -287,6 +312,7 @@ a:hover { text-decoration: underline; }
   color: var(--muted);
 }
 .faq-answer p { padding: 0.5rem 0 1rem; }
+.faq-answer-inner { padding: 0.5rem 0 1rem; }
 
 /* FOOTER — Centered one-column, warm brown */
 .site-footer {
